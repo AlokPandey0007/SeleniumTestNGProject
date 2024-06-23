@@ -1,0 +1,250 @@
+[INFO ] 2024-06-23 20:51:27.678 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/NAGPSelenium/TestData/LiveTrainStatusTestData.Properties
+[INFO ] 2024-06-23 20:51:27.693 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/NAGPSelenium/TestData/RedBusHomeTestData.Properties
+[INFO ] 2024-06-23 20:51:27.696 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/NAGPSelenium/TestData/CancelTicketTestData.Properties
+[INFO ] 2024-06-23 20:51:27.699 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/NAGPSelenium/TestData/RedRailHomeTestData.Properties
+[INFO ] 2024-06-23 20:51:27.709 [main] TestLogger - Thread 1: Creating extent report instance
+[INFO ] 2024-06-23 20:51:27.710 [main] TestLogger - Thread 1: File TestResult20240420201747.html has been moved to ArchivedTestResults folder
+[INFO ] 2024-06-23 20:51:27.728 [main] TestLogger - Thread 1: Returning current time stamp
+[INFO ] 2024-06-23 20:51:27.773 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:27.773 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:27.773 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:27.774 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:27.774 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:28.679 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:28.681 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:28.681 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:28.681 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:28.682 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:29.886 [main] TestLogger - Thread 1: Looking for locator TrainTicketTab_id in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:29.887 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:29.896 [main] TestLogger - Thread 1: Clicking on field TrainTicketTab_id
+[INFO ] 2024-06-23 20:51:31.312 [main] TestLogger - Thread 1: Clicked on train ticket tab
+[INFO ] 2024-06-23 20:51:31.314 [main] TestLogger - Thread 1: Clicking on Live Train Status radio button
+[INFO ] 2024-06-23 20:51:31.314 [main] TestLogger - Thread 1: Looking for locator LiveTrainStatusRadio_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:31.314 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:31.325 [main] TestLogger - Thread 1: Clicking on field LiveTrainStatusRadio_xpath
+[INFO ] 2024-06-23 20:51:31.755 [main] TestLogger - Thread 1: Reading value from property file for key TrainNumber
+[INFO ] 2024-06-23 20:51:31.755 [main] TestLogger - Thread 1: Looking for locator inputTrainNumber_xpath in file LiveTrainStatusObj.Properties
+[INFO ] 2024-06-23 20:51:31.755 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/LiveTrainStatusObj.Properties
+[DEBUG] 2024-06-23 20:51:31.769 [main] TestLogger - Thread 1: Entering data 12001 in field inputTrainNumber_xpath
+[INFO ] 2024-06-23 20:51:31.809 [main] TestLogger - Thread 1: Looking for locator selectTrainList_xpath in file LiveTrainStatusObj.Properties
+[INFO ] 2024-06-23 20:51:31.810 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/LiveTrainStatusObj.Properties
+[INFO ] 2024-06-23 20:51:32.539 [main] TestLogger - Thread 1: Reading config property for key ExplicitWait
+[INFO ] 2024-06-23 20:51:32.539 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:32.539 [main] TestLogger - Thread 1: Reading value from property file for key ExplicitWait
+[INFO ] 2024-06-23 20:51:32.552 [main] TestLogger - Thread 1: Looking for locator selectTrainList_xpath in file LiveTrainStatusObj.Properties
+[INFO ] 2024-06-23 20:51:32.552 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/LiveTrainStatusObj.Properties
+[DEBUG] 2024-06-23 20:51:32.558 [main] TestLogger - Thread 1: Clicking on field selectTrainList_xpath
+[INFO ] 2024-06-23 20:51:32.582 [main] TestLogger - Thread 1: Looking for locator CheckStatusBtn_xpath in file LiveTrainStatusObj.Properties
+[INFO ] 2024-06-23 20:51:32.582 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/LiveTrainStatusObj.Properties
+[DEBUG] 2024-06-23 20:51:32.589 [main] TestLogger - Thread 1: Clicking on field CheckStatusBtn_xpath
+[INFO ] 2024-06-23 20:51:32.610 [main] TestLogger - Thread 1: Looking for locator SearchResultPageHeader_xpath in file LiveTrainStatusObj.Properties
+[INFO ] 2024-06-23 20:51:32.610 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/LiveTrainStatusObj.Properties
+[DEBUG] 2024-06-23 20:51:32.621 [main] TestLogger - Thread 1: Getting text from element SearchResultPageHeader_xpath is 12001 | New Delhi Shatabdi Express
+[INFO ] 2024-06-23 20:51:32.622 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:51:32.725 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:32.726 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:32.726 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:32.726 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:32.726 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:33.341 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:33.344 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:33.344 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:33.345 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:33.348 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:34.535 [main] TestLogger - Thread 1: Reading value from property file for key PageTitle
+[INFO ] 2024-06-23 20:51:34.536 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:51:34.630 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:34.630 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:34.630 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:34.630 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:34.630 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:35.202 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:35.205 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:35.208 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:35.208 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:35.208 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:36.395 [main] TestLogger - Thread 1: Clicking on Book Train Ticket Button
+[INFO ] 2024-06-23 20:51:36.396 [main] TestLogger - Thread 1: Looking for locator LinkBookTrainticket_xpath in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:36.396 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:36.406 [main] TestLogger - Thread 1: Clicking on field LinkBookTrainticket_xpath
+[INFO ] 2024-06-23 20:51:37.822 [main] TestLogger - Thread 1: Reading value from property file for key RailRedPageTitle
+[INFO ] 2024-06-23 20:51:37.825 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:51:37.926 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:37.926 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:37.926 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:37.926 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:37.926 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:38.563 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:38.565 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:38.566 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:38.570 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:38.570 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:39.686 [main] TestLogger - Thread 1: Clicking on Book Train Ticket Button
+[INFO ] 2024-06-23 20:51:39.689 [main] TestLogger - Thread 1: Looking for locator LinkBookTrainticket_xpath in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:39.689 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:39.697 [main] TestLogger - Thread 1: Clicking on field LinkBookTrainticket_xpath
+[INFO ] 2024-06-23 20:51:41.277 [main] TestLogger - Thread 1: Reading value from property file for key RailRedPageTitle
+[INFO ] 2024-06-23 20:51:41.280 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:51:41.382 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:41.382 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:41.382 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:41.382 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:41.382 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:41.995 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:41.996 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:42.000 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:42.003 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:42.004 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:43.155 [main] TestLogger - Thread 1: Clicking on Account Dropdrown
+[INFO ] 2024-06-23 20:51:43.158 [main] TestLogger - Thread 1: Looking for locator AccountDropDown_id in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:43.158 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:43.166 [main] TestLogger - Thread 1: Clicking on field AccountDropDown_id
+[INFO ] 2024-06-23 20:51:43.186 [main] TestLogger - Thread 1: Clicking on Cancel Ticket
+[INFO ] 2024-06-23 20:51:43.186 [main] TestLogger - Thread 1: Looking for locator CancelTicket_id in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:43.186 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:43.192 [main] TestLogger - Thread 1: Clicking on field CancelTicket_id
+[INFO ] 2024-06-23 20:51:43.220 [main] TestLogger - Thread 1: Reading value from property file for key TicketNumber
+[INFO ] 2024-06-23 20:51:43.227 [main] TestLogger - Thread 1: Looking for locator InputTicketNumber_xpath in file CancelTicketObj.Properties
+[INFO ] 2024-06-23 20:51:43.227 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/CancelTicketObj.Properties
+[DEBUG] 2024-06-23 20:51:43.629 [main] TestLogger - Thread 1: Entering data 34535435 in field InputTicketNumber_xpath
+[INFO ] 2024-06-23 20:51:43.697 [main] TestLogger - Thread 1: Reading value from property file for key MobileNumber
+[INFO ] 2024-06-23 20:51:43.697 [main] TestLogger - Thread 1: Looking for locator InputMobileNumber_xpath in file CancelTicketObj.Properties
+[INFO ] 2024-06-23 20:51:43.697 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/CancelTicketObj.Properties
+[DEBUG] 2024-06-23 20:51:43.703 [main] TestLogger - Thread 1: Entering data 1234567890 in field InputMobileNumber_xpath
+[INFO ] 2024-06-23 20:51:43.733 [main] TestLogger - Thread 1: Looking for locator SelectPassenger_xpath in file CancelTicketObj.Properties
+[INFO ] 2024-06-23 20:51:43.733 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/CancelTicketObj.Properties
+[DEBUG] 2024-06-23 20:51:43.739 [main] TestLogger - Thread 1: Clicking on field SelectPassenger_xpath
+[INFO ] 2024-06-23 20:51:43.758 [main] TestLogger - Thread 1: Reading value from property file for key ExpectedErrorMessage
+[INFO ] 2024-06-23 20:51:43.758 [main] TestLogger - Thread 1: Looking for locator MsgError_xpath in file CancelTicketObj.Properties
+[INFO ] 2024-06-23 20:51:43.758 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/CancelTicketObj.Properties
+[DEBUG] 2024-06-23 20:51:44.134 [main] TestLogger - Thread 1: Getting text from element MsgError_xpath is Please enter correct ticket number (TIN from your ticket)
+[INFO ] 2024-06-23 20:51:44.135 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:51:44.230 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:44.230 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:44.230 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:44.230 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:44.230 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:44.834 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:44.835 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:44.835 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:44.835 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:44.835 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:46.022 [main] TestLogger - Thread 1: Looking for locator TrainTicketTab_id in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:46.024 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:46.031 [main] TestLogger - Thread 1: Clicking on field TrainTicketTab_id
+[INFO ] 2024-06-23 20:51:47.508 [main] TestLogger - Thread 1: Clicked on train ticket tab
+[INFO ] 2024-06-23 20:51:47.511 [main] TestLogger - Thread 1: Reading value from property file for key PageTitle
+[INFO ] 2024-06-23 20:51:47.518 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:51:47.619 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:47.619 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:47.619 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:47.619 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:47.619 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:48.233 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:48.235 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:48.235 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:48.236 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:48.239 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:49.456 [main] TestLogger - Thread 1: Looking for locator TrainTicketTab_id in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:49.459 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:49.467 [main] TestLogger - Thread 1: Clicking on field TrainTicketTab_id
+[INFO ] 2024-06-23 20:51:50.819 [main] TestLogger - Thread 1: Clicked on train ticket tab
+[INFO ] 2024-06-23 20:51:50.821 [main] TestLogger - Thread 1: Entering value in From field.
+[INFO ] 2024-06-23 20:51:50.821 [main] TestLogger - Thread 1: Looking for locator From_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:50.821 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:50.869 [main] TestLogger - Thread 1: Clearing field From_id
+[INFO ] 2024-06-23 20:51:50.887 [main] TestLogger - Thread 1: Looking for locator From_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:50.887 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:50.891 [main] TestLogger - Thread 1: Entering data Delhi in field From_id
+[INFO ] 2024-06-23 20:51:51.951 [main] TestLogger - Thread 1: Looking for locator StationSelect_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:51.952 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:52.009 [main] TestLogger - Thread 1: Entering value in To field.
+[INFO ] 2024-06-23 20:51:52.009 [main] TestLogger - Thread 1: Looking for locator To_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:52.009 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:52.016 [main] TestLogger - Thread 1: Clearing field To_id
+[INFO ] 2024-06-23 20:51:52.027 [main] TestLogger - Thread 1: Looking for locator To_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:52.027 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:52.031 [main] TestLogger - Thread 1: Entering data Chandigarh in field To_id
+[INFO ] 2024-06-23 20:51:53.054 [main] TestLogger - Thread 1: Looking for locator StationSelect_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:53.054 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:53.104 [main] TestLogger - Thread 1: Clicking on search field.
+[INFO ] 2024-06-23 20:51:53.105 [main] TestLogger - Thread 1: Looking for locator SearchBtn_cssselector in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:53.105 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:53.114 [main] TestLogger - Thread 1: Clicking on field SearchBtn_cssselector
+[INFO ] 2024-06-23 20:51:53.519 [main] TestLogger - Thread 1: Looking for locator ResultCard_cssselector in file TrainSearchResultObj.Properties
+[INFO ] 2024-06-23 20:51:53.519 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/TrainSearchResultObj.Properties
+[INFO ] 2024-06-23 20:51:54.079 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:51:54.176 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:51:54.176 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:51:54.176 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:54.176 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:51:54.176 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:51:54.796 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:51:54.797 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:51:54.797 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:51:54.801 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:51:54.801 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:51:55.969 [main] TestLogger - Thread 1: Looking for locator TrainTicketTab_id in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:51:55.972 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:55.980 [main] TestLogger - Thread 1: Clicking on field TrainTicketTab_id
+[INFO ] 2024-06-23 20:51:57.549 [main] TestLogger - Thread 1: Clicked on train ticket tab
+[INFO ] 2024-06-23 20:51:57.549 [main] TestLogger - Thread 1: Entering value in From field.
+[INFO ] 2024-06-23 20:51:57.549 [main] TestLogger - Thread 1: Looking for locator From_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:57.549 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:57.563 [main] TestLogger - Thread 1: Clearing field From_id
+[INFO ] 2024-06-23 20:51:57.596 [main] TestLogger - Thread 1: Looking for locator From_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:57.596 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:57.601 [main] TestLogger - Thread 1: Entering data Chandigarh in field From_id
+[INFO ] 2024-06-23 20:51:58.672 [main] TestLogger - Thread 1: Looking for locator StationSelect_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:58.673 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:58.731 [main] TestLogger - Thread 1: Entering value in To field.
+[INFO ] 2024-06-23 20:51:58.731 [main] TestLogger - Thread 1: Looking for locator To_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:58.731 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:58.738 [main] TestLogger - Thread 1: Clearing field To_id
+[INFO ] 2024-06-23 20:51:58.749 [main] TestLogger - Thread 1: Looking for locator To_id in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:58.749 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:58.753 [main] TestLogger - Thread 1: Entering data Lucknow in field To_id
+[INFO ] 2024-06-23 20:51:59.781 [main] TestLogger - Thread 1: Looking for locator StationSelect_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:59.781 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:59.828 [main] TestLogger - Thread 1: Clicking on search field.
+[INFO ] 2024-06-23 20:51:59.829 [main] TestLogger - Thread 1: Looking for locator SearchBtn_cssselector in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:51:59.829 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:51:59.835 [main] TestLogger - Thread 1: Clicking on field SearchBtn_cssselector
+[INFO ] 2024-06-23 20:52:00.351 [main] TestLogger - Thread 1: Looking for locator ResultCard_cssselector in file TrainSearchResultObj.Properties
+[INFO ] 2024-06-23 20:52:00.351 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/TrainSearchResultObj.Properties
+[INFO ] 2024-06-23 20:52:00.856 [main] TestLogger - Thread 1: Quitting browser
+[INFO ] 2024-06-23 20:52:00.958 [main] TestLogger - Thread 1: Opening Browser
+[INFO ] 2024-06-23 20:52:00.958 [main] TestLogger - Thread 1: Reading config property for key Browser
+[INFO ] 2024-06-23 20:52:00.958 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:52:00.958 [main] TestLogger - Thread 1: Reading value from property file for key Browser
+[INFO ] 2024-06-23 20:52:00.958 [main] TestLogger - Thread 1: Creating instance of browser chrome
+[INFO ] 2024-06-23 20:52:01.593 [main] TestLogger - Thread 1: Reading config property for key Url
+[INFO ] 2024-06-23 20:52:01.596 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/main/resources/Config.Properties
+[INFO ] 2024-06-23 20:52:01.596 [main] TestLogger - Thread 1: Reading value from property file for key Url
+[INFO ] 2024-06-23 20:52:01.596 [main] TestLogger - Thread 1: Entering Url https://www.redbus.in
+[INFO ] 2024-06-23 20:52:01.596 [main] TestLogger - Thread 1: Navigating to Url - https://www.redbus.in
+[INFO ] 2024-06-23 20:52:02.759 [main] TestLogger - Thread 1: Looking for locator TrainTicketTab_id in file RedBusHomeObj.Properties
+[INFO ] 2024-06-23 20:52:02.762 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedBusHomeObj.Properties
+[DEBUG] 2024-06-23 20:52:02.769 [main] TestLogger - Thread 1: Clicking on field TrainTicketTab_id
+[INFO ] 2024-06-23 20:52:04.209 [main] TestLogger - Thread 1: Clicked on train ticket tab
+[INFO ] 2024-06-23 20:52:04.209 [main] TestLogger - Thread 1: Clicking on PNR radio button
+[INFO ] 2024-06-23 20:52:04.209 [main] TestLogger - Thread 1: Looking for locator CheckPNRStatusradio_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:52:04.209 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:52:04.223 [main] TestLogger - Thread 1: Clicking on field CheckPNRStatusradio_xpath
+[INFO ] 2024-06-23 20:52:04.678 [main] TestLogger - Thread 1: Reading value from property file for key PNR
+[INFO ] 2024-06-23 20:52:04.678 [main] TestLogger - Thread 1: Entering PNR number
+[INFO ] 2024-06-23 20:52:04.678 [main] TestLogger - Thread 1: Looking for locator InputPNRTextField_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:52:04.679 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:52:04.684 [main] TestLogger - Thread 1: Entering data 3284723947 in field InputPNRTextField_xpath
+[INFO ] 2024-06-23 20:52:04.724 [main] TestLogger - Thread 1: Clicking on check Status button
+[INFO ] 2024-06-23 20:52:04.724 [main] TestLogger - Thread 1: Looking for locator CheckPNRStatusBtn_xpath in file RedRailHomeObj.Properties
+[INFO ] 2024-06-23 20:52:04.724 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/RedRailHomeObj.Properties
+[DEBUG] 2024-06-23 20:52:04.730 [main] TestLogger - Thread 1: Clicking on field CheckPNRStatusBtn_xpath
+[INFO ] 2024-06-23 20:52:04.750 [main] TestLogger - Thread 1: Looking for locator NoResultMessage_xpath in file PNRSearchResultObj.Properties
+[INFO ] 2024-06-23 20:52:04.750 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/PNRSearchResultObj.Properties
+[INFO ] 2024-06-23 20:52:05.111 [main] TestLogger - Thread 1: Looking for locator NoResultMessage_xpath in file PNRSearchResultObj.Properties
+[INFO ] 2024-06-23 20:52:05.111 [main] TestLogger - Thread 1: Reading property file from path /Users/alokpandey/eclipse-workspace/SeleniumAssignment/src/test/java/SeleniumNAGP/ObjectRepository/PNRSearchResultObj.Properties
+[DEBUG] 2024-06-23 20:52:05.127 [main] TestLogger - Thread 1: Getting text from element NoResultMessage_xpath is The PNR Number you've entered is wrong
+[INFO ] 2024-06-23 20:52:05.127 [main] TestLogger - Thread 1: Reading value from property file for key NoResultMessage
+[INFO ] 2024-06-23 20:52:05.127 [main] TestLogger - Thread 1: Quitting browser
